@@ -1,0 +1,10 @@
+{
+    "host": "seu_host_remoto",
+    "username": "seu_usuario_ssh",
+    "password": "sua_senha_ssh",
+    "commands": [
+        "echo 'substitua_aqui_por_sua_senha_sudo' | sudo -S /opt/lampp/lampp startmysql",
+        "echo 'Hello, World!'"
+    ],
+    "version":"2024.04.23-1530"
+}
